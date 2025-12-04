@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>Food Preference System Malaysia vs International</h1>
+            <h1>Food Preference AI</h1>
             <p>Discover your culinary inclination based on your lifestyle.</p>
         </header>
 
@@ -61,21 +61,13 @@
                     </div>
 
                     <div class="input-group">
-                        <label for="Per_Serving">Cost Per Serving</label>
-                        <select id="Per_Serving" name="Per_Serving" required>
-                            {% for opt in options['Per_Serving'] %}
-                            <option value="{{ opt }}">{{ opt }}</option>
-                            {% endfor %}
-                        </select>
+                        <label for="Per_Serving">Cost Per Serving (RM)</label>
+                        <input type="number" id="Per_Serving" name="Per_Serving" min="0" step="0.1" required>
                     </div>
 
                     <div class="input-group">
-                        <label for="Total_Monthly">Monthly Food Budget</label>
-                        <select id="Total_Monthly" name="Total_Monthly" required>
-                            {% for opt in options['Total_Monthly'] %}
-                            <option value="{{ opt }}">{{ opt }}</option>
-                            {% endfor %}
-                        </select>
+                        <label for="Total_Monthly">Monthly Food Budget (RM)</label>
+                        <input type="number" id="Total_Monthly" name="Total_Monthly" min="0" step="1" required>
                     </div>
 
                     <div class="input-group">

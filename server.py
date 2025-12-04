@@ -22,7 +22,9 @@ def load_and_train_model():
          mode_val = df['Education_Level'].mode()[0]
          df['Education_Level'].fillna(mode_val, inplace=True)
     
-    var_mod = ['Gender','Location','Occupation','Education_Level','Per_Serving','Total_Monthly','Factor_Influence','Often_Restaurant','Preference']
+    # Define categorical columns to encode
+    # Removed 'Per_Serving' and 'Total_Monthly' to treat them as numerical
+    var_mod = ['Gender','Location','Occupation','Education_Level','Factor_Influence','Often_Restaurant','Preference']
     
     encoders = {}
     for col in var_mod:
@@ -65,16 +67,10 @@ def predict():
         encoded_input.append(encoders['Occupation'].transform([data['Occupation']])[0])
         encoded_input.append(encoders['Education_Level'].transform([data['Education_Level']])[0])
         
-        # Per_Serving is numerical but encoded in training as categorical if using LabelEncoder on it.
-        # The notebook used LabelEncoder on Per_Serving (float).
-        # We need to handle it carefully. The encoder expects the exact float value as a string or whatever it saw.
-        # Let's assume the frontend sends the value and we try to transform it.
-        # Since it's a float, we might need to cast.
-        # However, LabelEncoder on floats is tricky. Let's check the classes.
-        # If the user inputs a new value, it will fail. For this demo, we restrict to known values in frontend.
-        encoded_input.append(encoders['Per_Serving'].transform([float(data['Per_Serving'])])[0])
+        # Use raw numerical values
+        encoded_input.append(float(data['Per_Serving']))
+        encoded_input.append(float(data['Total_Monthly']))
         
-        encoded_input.append(encoders['Total_Monthly'].transform([int(data['Total_Monthly'])])[0])
         encoded_input.append(encoders['Factor_Influence'].transform([data['Factor_Influence']])[0])
         encoded_input.append(encoders['Often_Restaurant'].transform([data['Often_Restaurant']])[0])
         encoded_input.append(float(data['Recommend_Traditional']))
