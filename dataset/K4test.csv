@@ -1,0 +1,101 @@
+Timestamp,Age,Gender,Location,Occupation,Education_Level,Per_Serving,Total_Monthly,Factor_Influence,Often_Restaurant,Recommend_Traditional,Recommend_International,Preference
+2024/11/21 12:15:06 AM GMT+8,27,Male,Suburban,Student,Overseas Graduate,10,700,Budget Friendly,Weekly,8,10,International cuisine
+2024/11/21 12:15:15 AM GMT+8,20,Female,City,Student,Local Graduate,10,450,Taste & Craving,Daily,10,5,Local cuisine
+2024/11/21 12:15:36 AM GMT+8,21,Female,Suburban,Student,Secondary,8,320,Healthy Meal,Monthly,10,10,Local cuisine
+2024/11/21 12:18:27 AM GMT+8,22,Female,Suburban,Student,Secondary,10,200,Budget Friendly,Monthly,8,6,Local cuisine
+2024/11/21 12:19:06 AM GMT+8,18,Female,City,Student,Local Graduate,10,300,Budget Friendly,Monthly,7,5,International cuisine
+2024/11/21 12:19:21 AM GMT+8,20,Female,Suburban,Student,Local Graduate,10,300,Taste & Craving,Monthly,7,7,Local cuisine
+2024/11/21 12:20:07 AM GMT+8,22,Female,City,Student,Local Graduate,7,423,Taste & Craving,Rarely,7,6,Local cuisine
+2024/11/21 12:21:02 AM GMT+8,19,Female,City,Student,Local Graduate,10,500,Taste & Craving,Weekly,9,10,Local cuisine
+2024/11/21 12:21:28 AM GMT+8,20,Female,Suburban,Student,Local Graduate,10,400,Budget Friendly,Rarely,9,4,Local cuisine
+2024/11/21 12:21:38 AM GMT+8,20,Female,City,Student,Local Graduate,10,300,Quick & Easy,Rarely,10,8,Local cuisine
+2024/11/21 12:21:46 AM GMT+8,19,Female,Rural,Student,Local Graduate,9,450,Taste & Craving,Daily,7,7,International cuisine
+2024/11/21 12:22:20 AM GMT+8,18,Female,City,Student,Local Graduate,10,250,Taste & Craving,Rarely,10,8,Local cuisine
+2024/11/21 12:24:30 AM GMT+8,18,Male,City,Student,Secondary,6,400,Budget Friendly,Weekly,10,5,Local cuisine
+2024/11/21 12:24:52 AM GMT+8,20,Male,Suburban,Student,Local Graduate,10,600,Taste & Craving,Weekly,7,3,Local cuisine
+2024/11/21 12:24:56 AM GMT+8,20,Male,City,Student,Secondary,10,350,Taste & Craving,Rarely,8,6,Local cuisine
+2024/11/21 12:25:20 AM GMT+8,18,Female,City,Student,Secondary,10,300,Taste & Craving,Rarely,9,4,Local cuisine
+2024/11/21 12:25:24 AM GMT+8,18,Female,City,Student,Local Graduate,20,100,Taste & Craving,Monthly,8,4,Local cuisine
+2024/11/21 12:26:31 AM GMT+8,21,Male,Suburban,Student,Local Graduate,10,400,Budget Friendly,Weekly,9,7,Local cuisine
+2024/11/21 12:27:08 AM GMT+8,22,Female,Suburban,Student,Local Graduate,10,400,Budget Friendly,Weekly,7,6,International cuisine
+2024/11/21 12:27:45 AM GMT+8,19,Female,City,Student,Local Graduate,10,550,Quick & Easy,Weekly,9,8,Local cuisine
+2024/11/21 12:32:11 AM GMT+8,23,Male,Suburban,Student,Local Graduate,20,300,Taste & Craving,Daily,9,5,Local cuisine
+2024/11/21 12:33:35 AM GMT+8,20,Male,City,Student,Local Graduate,10,200,Taste & Craving,Rarely,5,7,International cuisine
+2024/11/21 12:37:49 AM GMT+8,19,Male,Rural,Student,Local Graduate,10,200,Taste & Craving,Daily,8.9,7,Local cuisine
+2024/11/21 12:39:23 AM GMT+8,19,Female,Suburban,Student,Local Graduate,8,100,Budget Friendly,Monthly,10,8,Local cuisine
+2024/11/21 12:39:43 AM GMT+8,20,Female,City,Student,Local Graduate,10,200,Taste & Craving,Daily,8,7,Local cuisine
+2024/11/21 12:43:13 AM GMT+8,18,Female,Rural,Student,Local Graduate,15,450,Taste & Craving,Rarely,10,6,Local cuisine
+2024/11/21 12:43:59 AM GMT+8,20,Female,Rural,Student,Local Graduate,10,200,Taste & Craving,Rarely,8,9,International cuisine
+2024/11/21 12:50:26 AM GMT+8,25,Female,Rural,Student,Local Graduate,15,100,Taste & Craving,Monthly,7,6,Local cuisine
+2024/11/21 12:51:03 AM GMT+8,18,Female,Suburban,Student,Secondary,6,300,Budget Friendly,Monthly,9,7,Local cuisine
+2024/11/21 12:57:39 AM GMT+8,22,Female,City,Student,Local Graduate,10,300,Budget Friendly,Rarely,7,7,Local cuisine
+2024/11/21 12:59:39 AM GMT+8,23,Female,City,Student,Local Graduate,14,300,Quick & Easy,Monthly,8,7,Local cuisine
+2024/11/21 1:05:44 AM GMT+8,20,Female,City,Student,Local Graduate,8,400,Taste & Craving,Rarely,8,6,Local cuisine
+2024/11/21 1:08:21 AM GMT+8,22,Female,City,Student,Local Graduate,10,350,Healthy Meal,Rarely,10,8,Local cuisine
+2024/11/21 1:08:27 AM GMT+8,24,Female,Rural,Student,Local Graduate,20,800,Healthy Meal,Rarely,10,10,Local cuisine
+2024/11/21 1:08:54 AM GMT+8,21,Female,Rural,Student,Local Graduate,10,550,Budget Friendly,Rarely,9,5,Local cuisine
+2024/11/21 1:11:00 AM GMT+8,38,Female,City,Employed (Non Executive-level),Local Graduate,10,1000,Taste & Craving,Daily,10,5,Local cuisine
+2024/11/21 1:12:55 AM GMT+8,23,Male,Suburban,Student,Local Graduate,15,300,Taste & Craving,Weekly,10,7,Local cuisine
+2024/11/21 1:13:38 AM GMT+8,18,Female,City,Student,Local Graduate,15,150,Budget Friendly,Monthly,10,8,Local cuisine
+2024/11/21 1:34:46 AM GMT+8,20,Female,Suburban,Student,Local Graduate,7,300,Taste & Craving,Daily,10,5,Local cuisine
+2024/11/21 2:03:38 AM GMT+8,21,Female,City,Student,Local Graduate,7,250,Budget Friendly,Weekly,8,4,Local cuisine
+2024/11/21 2:05:50 AM GMT+8,24,Female,Rural,Unemployed,Local Graduate,15,350,Taste & Craving,Rarely,10,4,Local cuisine
+2024/11/21 2:13:14 AM GMT+8,18,Female,Rural,Student,Secondary,7,100,Budget Friendly,Rarely,9,7,Local cuisine
+2024/11/21 2:25:36 AM GMT+8,22,Female,City,Student,Local Graduate,15,300,Taste & Craving,Monthly,10,10,Local cuisine
+2024/11/21 2:45:48 AM GMT+8,21,Female,Rural,Student,Local Graduate,10,450,Budget Friendly,Monthly,10,7,Local cuisine
+2024/11/21 2:47:31 AM GMT+8,22,Female,Suburban,Student,Local Graduate,10,560,Budget Friendly,Daily,10,8,Local cuisine
+2024/11/21 2:48:49 AM GMT+8,21,Female,Rural,Student,Local Graduate,6,100,Quick & Easy,Rarely,10,10,Local cuisine
+2024/11/21 2:51:12 AM GMT+8,17,Female,City,Student,Secondary,10,400,Taste & Craving,Weekly,7,6,Local cuisine
+2024/11/21 3:01:16 AM GMT+8,24,Female,City,Student,Primary,10,10,Taste & Craving,Monthly,9,7,Local cuisine
+2024/11/21 3:07:03 AM GMT+8,19,Female,City,Student,Local Graduate,6,500,Trending Meal,Monthly,8,8,International cuisine
+2024/11/21 5:15:18 AM GMT+8,41,Female,City,Student,Local Graduate,20,1000,Taste & Craving,Daily,10,5,Local cuisine
+2024/11/21 5:44:22 AM GMT+8,20,Male,City,Student,Secondary,10,500,Taste & Craving,Daily,10,7,Local cuisine
+2024/11/21 5:53:51 AM GMT+8,30,Female,Suburban,Employed (Executive-level),Local Graduate,8,300,Taste & Craving,Monthly,9,6,Local cuisine
+2024/11/21 5:58:48 AM GMT+8,18,Female,Suburban,Student,Local Graduate,9,400,Budget Friendly,Weekly,9,10,Local cuisine
+2024/11/21 6:09:25 AM GMT+8,20,Female,City,Student,Local Graduate,10,400,Taste & Craving,Monthly,9,5,Local cuisine
+2024/11/21 6:11:56 AM GMT+8,22,Female,Rural,Student,Local Graduate,15,350,Budget Friendly,Rarely,8,5,Local cuisine
+2024/11/21 6:20:27 AM GMT+8,19,Female,Rural,Student,Local Graduate,9,300,Taste & Craving,Rarely,8,6,Local cuisine
+2024/11/21 6:38:25 AM GMT+8,20,Female,Suburban,Student,Local Graduate,8,300,Budget Friendly,Weekly,9,5,Local cuisine
+2024/11/21 7:01:31 AM GMT+8,23,Female,Rural,Student,Local Graduate,8,480,Budget Friendly,Daily,10,9,Local cuisine
+2024/11/21 7:08:05 AM GMT+8,18,Female,City,Student,Secondary,6,360,Taste & Craving,Rarely,7,8,Local cuisine
+2024/11/21 7:09:06 AM GMT+8,36,Female,City,Student,Overseas Graduate,20,300,Budget Friendly,Weekly,6,5,Local cuisine
+2024/11/21 7:20:35 AM GMT+8,33,Female,Rural,Employed (Executive-level),Overseas Graduate,15,500,Taste & Craving,Daily,10,10,Local cuisine
+2024/11/21 7:39:36 AM GMT+8,18,Female,Suburban,Student,Secondary,20,200,Budget Friendly,Weekly,8,7,International cuisine
+2024/11/21 7:46:53 AM GMT+8,23,Male,City,Student,Local Graduate,20,400,Budget Friendly,Rarely,10,4,Local cuisine
+2024/11/21 7:49:06 AM GMT+8,31,Male,City,Employed (Non Executive-level),Local Graduate,50,800,Budget Friendly,Monthly,9,8,Local cuisine
+2024/11/21 8:06:17 AM GMT+8,23,Female,Suburban,Student,Local Graduate,10,300,Taste & Craving,Weekly,9,6,Local cuisine
+2024/11/21 8:06:26 AM GMT+8,19,Female,City,Student,Local Graduate,15,350,Taste & Craving,Weekly,7,5,Local cuisine
+2024/11/21 8:10:18 AM GMT+8,20,Female,City,Student,Local Graduate,10,400,Budget Friendly,Rarely,6,6,Local cuisine
+2024/11/21 8:17:13 AM GMT+8,29,Female,City,Self employed,Local Graduate,20,400,Budget Friendly,Weekly,10,10,Local cuisine
+2024/11/21 8:35:43 AM GMT+8,23,Female,Rural,Student,Local Graduate,10,300,Budget Friendly,Rarely,10,5,Local cuisine
+2024/11/21 8:38:07 AM GMT+8,21,Female,City,Student,Secondary,10,350,Budget Friendly,Rarely,5,7,International cuisine
+2024/11/21 8:56:01 AM GMT+8,26,Female,City,Employed (Non Executive-level),Local Graduate,10,300,Budget Friendly,Weekly,7,5,Local cuisine
+2024/11/21 8:56:52 AM GMT+8,43,Female,Rural,Employed (Executive-level),Local Graduate,45,600,Taste & Craving,Weekly,10,4,Local cuisine
+2024/11/21 9:02:51 AM GMT+8,22,Female,City,Student,Local Graduate,15,300,Budget Friendly,Weekly,8,5,Local cuisine
+2024/11/21 9:11:10 AM GMT+8,27,Male,Suburban,Employed (Executive-level),Secondary,10,300,Budget Friendly,Weekly,3,5,Local cuisine
+2024/11/21 9:21:56 AM GMT+8,22,Male,City,Student,Local Graduate,12,360,Budget Friendly,Weekly,7,4,Local cuisine
+2024/11/21 9:31:52 AM GMT+8,18,Female,City,Student,Local Graduate,10,400,Taste & Craving,Rarely,5,7,International cuisine
+2024/11/21 9:48:33 AM GMT+8,23,Male,City,Student,Local Graduate,10,400,Budget Friendly,Weekly,7,7,Local cuisine
+2024/11/21 10:04:05 AM GMT+8,22,Female,Suburban,Student,Local Graduate,20,500,Taste & Craving,Daily,10,6,Local cuisine
+2024/11/21 10:27:45 AM GMT+8,23,Female,Suburban,Student,Local Graduate,10,45,Budget Friendly,Rarely,8,7,Local cuisine
+2024/11/21 10:47:07 AM GMT+8,23,Female,Suburban,Student,Local Graduate,20,400,Budget Friendly,Rarely,8,7,Local cuisine
+2024/11/21 11:02:58 AM GMT+8,27,Female,City,Employed (Non Executive-level),Local Graduate,10,550,Budget Friendly,Daily,10,10,Local cuisine
+2024/11/21 11:03:25 AM GMT+8,37,Male,Suburban,Employed (Executive-level),Overseas Graduate,10,500,Budget Friendly,Weekly,9,6,Local cuisine
+2024/11/21 11:11:11 AM GMT+8,25,Male,Suburban,Student,Local Graduate,10,300,Healthy Meal,Weekly,10,8,International cuisine
+2024/11/21 11:24:01 AM GMT+8,31,Female,Rural,Student,Local Graduate,10,100,Budget Friendly,Rarely,9,5,Local cuisine
+2024/11/21 11:33:14 AM GMT+8,20,Male,City,Student,Local Graduate,7,150,Budget Friendly,Monthly,10,10,Local cuisine
+2024/11/21 11:37:25 AM GMT+8,25,Female,Suburban,Employed (Non Executive-level),Local Graduate,12,400,Quick & Easy,Rarely,9,7,Local cuisine
+2024/11/21 11:40:31 AM GMT+8,24,Female,Rural,Student,Local Graduate,15,450,Taste & Craving,Daily,9,5,Local cuisine
+2024/11/21 11:46:54 AM GMT+8,21,Female,Rural,Student,Local Graduate,7,200,Budget Friendly,Rarely,10,6,Local cuisine
+2024/11/21 12:05:58 PM GMT+8,22,Female,Suburban,Student,Local Graduate,10,300,Budget Friendly,Rarely,10,7,Local cuisine
+2024/11/21 12:12:18 PM GMT+8,20,Female,City,Student,Local Graduate,10,500,Budget Friendly,Rarely,10,7,Local cuisine
+2024/11/21 12:13:35 PM GMT+8,27,Female,City,Unemployed,Local Graduate,20,350,Taste & Craving,Rarely,8,8,International cuisine
+2024/11/21 12:23:14 PM GMT+8,21,Female,Suburban,Student,Local Graduate,6,200,Budget Friendly,Rarely,10,5,Local cuisine
+2024/11/21 12:28:13 PM GMT+8,24,Male,City,Student,Local Graduate,8.5,200,Budget Friendly,Daily,10,8,Local cuisine
+2024/11/21 12:43:21 PM GMT+8,21,Male,Rural,Student,Local Graduate,9,300,Taste & Craving,Monthly,8,6,Local cuisine
+2024/11/21 12:43:25 PM GMT+8,21,Male,City,Student,Local Graduate,8,300,Budget Friendly,Rarely,10,7,Local cuisine
+2024/11/21 12:50:15 PM GMT+8,26,Female,Suburban,Employed (Non Executive-level),Local Graduate,20,250,Taste & Craving,Rarely,10,6,Local cuisine
+2024/11/21 12:55:24 PM GMT+8,19,Female,City,Student,Local Graduate,20,350,Budget Friendly,Monthly,8,5,Local cuisine
+2024/11/21 1:31:03 PM GMT+8,18,Male,City,Student,Local Graduate,6,300,Budget Friendly,Weekly,10,10,Local cuisine
+2024/11/21 1:32:53 PM GMT+8,19,Female,Suburban,Student,Local Graduate,10,300,Budget Friendly,Rarely,10,4,Local cuisine
+2024/11/21 2:02:15 PM GMT+8,21,Male,Suburban,Student,Local Graduate,8,250,Taste & Craving,Weekly,9,6,Local cuisine

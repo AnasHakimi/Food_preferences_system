@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Preference Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Food Preference System Malaysia vs International</h1>
+            <p>Discover your culinary inclination based on your lifestyle.</p>
+        </header>
+
+        <main>
+            <form id="predictionForm">
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label for="Age">Age</label>
+                        <input type="number" id="Age" name="Age" min="1" max="100" value="25" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="Gender">Gender</label>
+                        <select id="Gender" name="Gender" required>
+                            {% for opt in options['Gender'] %}
+                            <option value="{{ opt }}">{{ opt }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="Location">Location</label>
+                        <select id="Location" name="Location" required>
+                            {% for opt in options['Location'] %}
+                            <option value="{{ opt }}">{{ opt }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="Occupation">Occupation</label>
+                        <select id="Occupation" name="Occupation" required>
+                            {% for opt in options['Occupation'] %}
+                            <option value="{{ opt }}">{{ opt }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="Education_Level">Education Level</label>
+                        <select id="Education_Level" name="Education_Level" required>
+                            {% for opt in options['Education_Level'] %}
+                            <option value="{{ opt }}">{{ opt }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="Per_Serving">Cost Per Serving</label>
+                        <select id="Per_Serving" name="Per_Serving" required>
+                            {% for opt in options['Per_Serving'] %}
+                            <option value="{{ opt }}">{{ opt }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="Total_Monthly">Monthly Food Budget</label>
+                        <select id="Total_Monthly" name="Total_Monthly" required>
+                            {% for opt in options['Total_Monthly'] %}
+                            <option value="{{ opt }}">{{ opt }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="Factor_Influence">Influencing Factor</label>
+                        <select id="Factor_Influence" name="Factor_Influence" required>
+                            {% for opt in options['Factor_Influence'] %}
+                            <option value="{{ opt }}">{{ opt }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="Often_Restaurant">Restaurant Frequency</label>
+                        <select id="Often_Restaurant" name="Often_Restaurant" required>
+                            {% for opt in options['Often_Restaurant'] %}
+                            <option value="{{ opt }}">{{ opt }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="input-group full-width">
+                        <label for="Recommend_Traditional">Likelihood to Recommend Traditional Food (1-10)</label>
+                        <input type="range" id="Recommend_Traditional" name="Recommend_Traditional" min="1" max="10"
+                            value="5" oninput="this.nextElementSibling.value = this.value">
+                        <output>5</output>
+                    </div>
+
+                    <div class="input-group full-width">
+                        <label for="Recommend_International">Likelihood to Recommend International Food (1-10)</label>
+                        <input type="range" id="Recommend_International" name="Recommend_International" min="1" max="10"
+                            value="5" oninput="this.nextElementSibling.value = this.value">
+                        <output>5</output>
+                    </div>
+                </div>
+
+                <button type="submit" id="predictBtn">Predict Preference</button>
+            </form>
+
+            <div id="result" class="result-container hidden">
+                <h2>Prediction</h2>
+                <p id="predictionText"></p>
+                <button id="resetBtn">Try Again</button>
+            </div>
+        </main>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
